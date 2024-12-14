@@ -1,0 +1,25 @@
+# Prevent committing .env files (containing secrets)
+*.env
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Nautobot local settings
+local_settings.py
+
+# Other common ignores (optional but recommended)
+*.log
+*.swp
+*~
+# Editor and IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
